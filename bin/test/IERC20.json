@@ -1,0 +1,571 @@
+{
+    "contractName": "IERC20",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "mint",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.28+commit.7893614a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"mint\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/usman/Documents/hakc/test/Counter.t.sol\":\"IERC20\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"/home/usman/Documents/hakc/lib/forge-std/src/Base.sol\":{\"keccak256\":\"0x4ff1a785311017d1eedb1b4737956fa383067ad34eb439abfec1d989754dde1c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f553622969b9fdb930246704a4c10dfaee6b1a4468c142fa7eb9dc292a438224\",\"dweb:/ipfs/QmcxqHnqdQsMVtgsfH9VNLmZ3g7GhgNagfq7yvNCDcCHFK\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/StdAssertions.sol\":{\"keccak256\":\"0x4584f551c3a875c26423c1e50a77179bc2f9c9c1ee6d0f0c6be0f89ca5ee8270\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ef118876a862b60ba8a6612b8b3f3a6c226e11a0071a2e9695f021586d1bfdbe\",\"dweb:/ipfs/QmXd2vD91PkvoFWasFkgbDi89PctmgsHVxGvGNyhjmRK2b\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/StdChains.sol\":{\"keccak256\":\"0x7dd11ac4db798fa196e00a0cfa288ce984acac881f1f34de03fe3187deed58de\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2c15fb03d5545e2d8d3948661596410edec5ec278a73988914b14a05d0d54557\",\"dweb:/ipfs/QmWGjkLgp4wSrTrFxF8cmhghaXQp5VyXYQvWE1DUTPL4rG\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/StdCheats.sol\":{\"keccak256\":\"0xc28b654cfbcafb8f7688c8dc69134921bb4841c82ddc2e5f27bcf5d8eb2177cf\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3f1875b52fb32efefdc467d9566bf93d72dad036547ce6955e4f7a318eea9d6f\",\"dweb:/ipfs/QmbgbSX8JajLzTyWcPqrYAcsQcHNuGTFTKdQ3HNTvyRgdj\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/StdError.sol\":{\"keccak256\":\"0xbf477b11a42d7611696956546bcfaa29317d1166bf65e402344599c05943fc77\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bc2e117d1135e030862b96a6526a43feb38d396cc79857f1fb696d4eff0e5fd6\",\"dweb:/ipfs/QmdSuQ5RrQudTLsNmWXGEeVJX8gR5U9XPm6m4dwwuQnJrj\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/StdInvariant.sol\":{\"keccak256\":\"0x4dab3021edfa9511bbdd80c48f060ef62eaf457f99eaf841f561fc2557d9a08d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://07668628673174cf8f27f8f4e1f862bab775013ec247eb34f698c5005f229391\",\"dweb:/ipfs/QmPJsiiYwmCZXMsHmQv5tg8VF3CAhNdat7WnKLTWZZH2v5\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/StdJson.sol\":{\"keccak256\":\"0xbc0132abe1c2accc2867c0f03667afffdf92f3e95a581bb03c9557eaa38ea500\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://eb6fab37dc73c219cfbb7b4f4998bcf7677ca5397a867e850f40232192073974\",\"dweb:/ipfs/QmUHsbVdp9SKmgek7ZfPcLTKrpZFXpqaqt4sVejzxGEQL3\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/StdMath.sol\":{\"keccak256\":\"0xd90ad4fd8aeaeb8929964e686e769fdedd5eded3fc3815df194a0ab9f91a3fb2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7919b70f636c7b805223992f28ad1ad0145d6c1385b5931a3589aface5fe6c92\",\"dweb:/ipfs/QmY7FRaULwoGgFteF8GawjQJRfasNgpWnU2aiMsFrYpuTC\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/StdStorage.sol\":{\"keccak256\":\"0xb91ab24383a5872b894fc93325eef1add6cbbf981628f18e860068bf88bb7dcc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2651e33b9ac8fc5803ed0a43078c1bf4fa90a0b0347aafd95776b02daccdcc57\",\"dweb:/ipfs/QmbdRyPuGJdZgnCuMnp7c1WsBo1Spf7j1KMmws1Z5rd4BQ\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/StdStyle.sol\":{\"keccak256\":\"0x43e2a8a9b9c2574dabe74f11adf6f782df218f463540e3b5b563609fe108597d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://51363ca97404cf4128e1141428949768c31929e75e014b02c85e887fbbb4f1b8\",\"dweb:/ipfs/QmVhtbQc2fU4rRmbcfBtz34mAgG4BAZBsbna1Ca4SkoPsK\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/StdToml.sol\":{\"keccak256\":\"0x58a72c765ed3f7ff6b105509689658795b8a3739b8931772a497155878381861\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b4a3746f4fabaeb980bd77d9e091d3904ee38a6c0e191bfa8ba6874c6f8558a3\",\"dweb:/ipfs/QmUfFDMEn461FgGEXt5HicyGD54sc28sLaQ9JRWDMBKed8\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/StdUtils.sol\":{\"keccak256\":\"0x4a5853bb9688c4e1c65626036cddd8ea2af84ef1046b704ddc3782d84a892410\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://09c1024e6aac9657312fcfcf5c3dee62c22edf9f74a1065e6924c4ec710ecafa\",\"dweb:/ipfs/QmRNURoTUkd6DiZnf8yY8o3stJpVQBifopdSpQgP9RhvRr\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/Test.sol\":{\"keccak256\":\"0x3b4bb409a156dee9ce261458117fe9f81080ca844a8a26c07c857c46d155effe\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5792c69fe24bdc063a14e08fe68275007fdb1e5e7e343840a77938cb7e95a64e\",\"dweb:/ipfs/QmcAMhaurUwzhytJFYix4vRNeZeV8g27b8LnV3t7dvYtiK\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/Vm.sol\":{\"keccak256\":\"0x51d822417db259b59eec2dfb7859285cef983a26b5d4fba20e1addabccc8734e\",\"license\":\"MIT OR Apache-2.0\",\"urls\":[\"bzz-raw://0e3b5abe0173ee6e479e4248eb4ee3a4374f7e08fb2848d93f5c2cf5e95214f1\",\"dweb:/ipfs/QmbUBD4NLFCuR6WHVx5unXH2uWHEhtADLcFrUwyev8iLrD\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/console.sol\":{\"keccak256\":\"0x4bbf47eb762cef93729d6ef15e78789957147039b113e5d4df48e3d3fd16d0f5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://af9e3a7c3d82fb5b10b57ca4d1a82f2acbef80c077f6f6ef0cc0187c7bfd9f57\",\"dweb:/ipfs/QmR9VzmnBDJpgiDP6CHT6truehukF9HpYvuP6kRiJbDwPP\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/console2.sol\":{\"keccak256\":\"0x3b8fe79f48f065a4e4d35362171304a33784c3a90febae5f2787805a438de12f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://61de63af08803549299e68b6e6e88d40f3c5afac450e4ee0a228c66a61ba003d\",\"dweb:/ipfs/QmWVoQ5rrVxnczD4ZZoPbD4PC9Z3uExJtzjD4awTqd14MZ\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/interfaces/IERC165.sol\":{\"keccak256\":\"0x414b2861b1acbf816ccb7346d3f16cf6c1e002e9e5e40d2f1f26fa5ddc2ea600\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://698352fb240868ea8f1d1fe389993035eeab930f10d06934f80ccfb2b6ccbfbc\",\"dweb:/ipfs/QmT6WLHAgXxFhh12kWym895oTzXid1326iZiwT3pyfggoT\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/interfaces/IERC20.sol\":{\"keccak256\":\"0x4cab887298790f908c27de107e4e2907ca5413aee482ef776f8d2f353c5ef947\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bb715e0c4a2bdbe432bb624501506041f06e878e0b72675aebba30ad2c2b72e7\",\"dweb:/ipfs/QmWhhLSvkxS2NrukJJHqFY8gDVE5r9rD4PfHvR24pwdKv9\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/interfaces/IERC721.sol\":{\"keccak256\":\"0xf069262a264fdb69f8f37a10d2df7374649e9ba73f8414c9c8a3b51184625f15\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://924a41ca82a68ffbd503a5faf2f76d13e9938f10501a71094716f12bb64b4b7f\",\"dweb:/ipfs/QmdWnqfKc5ZGhmxNPTde4zrFchnv9Yk9MpCMb2rdhXE5gm\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/interfaces/IMulticall3.sol\":{\"keccak256\":\"0x7aac1389150499a922d1f9ef5749c908cef127cb2075b92fa17e9cb611263d0a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d95ebb7c7c463e08ebc12dab639945752fb2480acfc6e86da32f72732a7fd0c0\",\"dweb:/ipfs/QmNXK8P8oPWwajsQHvAHw3JPyQidPLCGQN3hWu1Lk6PBL2\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/mocks/MockERC20.sol\":{\"keccak256\":\"0xadbdfc6639edec00ba94bb1133a0fd8de31ccafe45c2ef5df9b3ca61b60b559b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bc766f01bccf669abac8cc7b2096cc1352a66471ca3772ae61b1801dedc4ed4f\",\"dweb:/ipfs/QmNigaPj1LYkP7Z5xr4ijkUxr2K66fDGeoifG3WoM9ruyw\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/mocks/MockERC721.sol\":{\"keccak256\":\"0xbfbb755bb379f58b97699f7cda0e9a2b9113daaa072e41b280a5ce6a3bff44c9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5ae0c31d29db14d6a0e9b62d33d550feb307f48a6f45068901a013321f337f87\",\"dweb:/ipfs/QmX25DVXW6XZDvRm6SNBGCWrZQ6oNhdq5CmgtVocvsUdwv\"]},\"/home/usman/Documents/hakc/lib/forge-std/src/safeconsole.sol\":{\"keccak256\":\"0xbef9786cb49d3eade757bad87568c49c8c8f35721f0193c95ffb055d9e466e11\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3bafd2b0b2d28068d329f95ea8a1fbce3719c257fcb863fc01abcbafd8d531ab\",\"dweb:/ipfs/QmUeaFjKWTVDBsHVfSob4mwt6A5hTnKDz22HaUXeZhypa3\"]},\"/home/usman/Documents/hakc/test/Counter.t.sol\":{\"keccak256\":\"0xfd1a9690c62b06f223aa9603aa64e0209782b789e312acc53bbe30677fa24134\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://4cf4d59d961af0d8d78e0dd9ff594f68edd75fc9fbc898313ab87e6cd89a8e98\",\"dweb:/ipfs/Qmc7BGWPvbu3inHbvaT4VFbHfiB6fPsjkCoyi6QUZsP6Zq\"]}},\"version\":1}",
+    "bytecode": "",
+    "deployedBytecode": "",
+    "sourceMap": "",
+    "deployedSourceMap": "",
+    "sourcePath": "/home/usman/Documents/hakc/test/Counter.t.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.28+commit.7893614a"
+    },
+    "ast": {
+        "absolutePath": "/home/usman/Documents/hakc/test/Counter.t.sol",
+        "exportedSymbols": {
+            "CounterTest": [
+                40137
+            ],
+            "IERC20": [
+                40111
+            ],
+            "Test": [
+                12827
+            ],
+            "console": [
+                25382
+            ]
+        },
+        "id": 40138,
+        "license": "UNLICENSED",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 40100,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".13"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "39:24:23"
+            },
+            {
+                "absolutePath": "/home/usman/Documents/hakc/lib/forge-std/src/Test.sol",
+                "file": "/home/usman/Documents/hakc/lib/forge-std/src/Test.sol",
+                "id": 40103,
+                "nameLocation": "-1:-1:-1",
+                "nodeType": "ImportDirective",
+                "scope": 40138,
+                "sourceUnit": 12828,
+                "src": "65:84:23",
+                "symbolAliases": [
+                    {
+                        "foreign": {
+                            "id": 40101,
+                            "name": "Test",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 12827,
+                            "src": "73:4:23",
+                            "typeDescriptions": {}
+                        },
+                        "nameLocation": "-1:-1:-1"
+                    },
+                    {
+                        "foreign": {
+                            "id": 40102,
+                            "name": "console",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 25382,
+                            "src": "79:7:23",
+                            "typeDescriptions": {}
+                        },
+                        "nameLocation": "-1:-1:-1"
+                    }
+                ],
+                "unitAlias": ""
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "IERC20",
+                "contractDependencies": [],
+                "contractKind": "interface",
+                "fullyImplemented": false,
+                "id": 40111,
+                "linearizedBaseContracts": [
+                    40111
+                ],
+                "name": "IERC20",
+                "nameLocation": "161:6:23",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "functionSelector": "40c10f19",
+                        "id": 40110,
+                        "implemented": false,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "mint",
+                        "nameLocation": "184:4:23",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 40108,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 40105,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 40110,
+                                    "src": "189:7:23",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_address",
+                                        "typeString": "address"
+                                    },
+                                    "typeName": {
+                                        "id": 40104,
+                                        "name": "address",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "189:7:23",
+                                        "stateMutability": "nonpayable",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_address",
+                                            "typeString": "address"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                },
+                                {
+                                    "constant": false,
+                                    "id": 40107,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 40110,
+                                    "src": "198:7:23",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 40106,
+                                        "name": "uint256",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "198:7:23",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "188:18:23"
+                        },
+                        "returnParameters": {
+                            "id": 40109,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "216:0:23"
+                        },
+                        "scope": 40111,
+                        "src": "175:42:23",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "external"
+                    }
+                ],
+                "scope": 40138,
+                "src": "151:68:23",
+                "usedErrors": [],
+                "usedEvents": []
+            },
+            {
+                "abstract": false,
+                "baseContracts": [
+                    {
+                        "baseName": {
+                            "id": 40112,
+                            "name": "Test",
+                            "nameLocations": [
+                                "244:4:23"
+                            ],
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 12827,
+                            "src": "244:4:23"
+                        },
+                        "id": 40113,
+                        "nodeType": "InheritanceSpecifier",
+                        "src": "244:4:23"
+                    }
+                ],
+                "canonicalName": "CounterTest",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 40137,
+                "linearizedBaseContracts": [
+                    40137,
+                    12827,
+                    12775,
+                    6753,
+                    6393,
+                    5600,
+                    3540,
+                    2695,
+                    65,
+                    62
+                ],
+                "name": "CounterTest",
+                "nameLocation": "229:11:23",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "fc0c546a",
+                        "id": 40119,
+                        "mutability": "mutable",
+                        "name": "token",
+                        "nameLocation": "269:5:23",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 40137,
+                        "src": "255:72:23",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_IERC20_$40111",
+                            "typeString": "contract IERC20"
+                        },
+                        "typeName": {
+                            "id": 40115,
+                            "nodeType": "UserDefinedTypeName",
+                            "pathNode": {
+                                "id": 40114,
+                                "name": "IERC20",
+                                "nameLocations": [
+                                    "255:6:23"
+                                ],
+                                "nodeType": "IdentifierPath",
+                                "referencedDeclaration": 40111,
+                                "src": "255:6:23"
+                            },
+                            "referencedDeclaration": 40111,
+                            "src": "255:6:23",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_IERC20_$40111",
+                                "typeString": "contract IERC20"
+                            }
+                        },
+                        "value": {
+                            "arguments": [
+                                {
+                                    "hexValue": "307836343132343964423031643543396130346431413232333736356646643135663935313637393234",
+                                    "id": 40117,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": true,
+                                    "kind": "number",
+                                    "lValueRequested": false,
+                                    "nodeType": "Literal",
+                                    "src": "284:42:23",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_address",
+                                        "typeString": "address"
+                                    },
+                                    "value": "0x641249dB01d5C9a04d1A223765fFd15f95167924"
+                                }
+                            ],
+                            "expression": {
+                                "argumentTypes": [
+                                    {
+                                        "typeIdentifier": "t_address",
+                                        "typeString": "address"
+                                    }
+                                ],
+                                "id": 40116,
+                                "name": "IERC20",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 40111,
+                                "src": "277:6:23",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_type$_t_contract$_IERC20_$40111_$",
+                                    "typeString": "type(contract IERC20)"
+                                }
+                            },
+                            "id": 40118,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "typeConversion",
+                            "lValueRequested": false,
+                            "nameLocations": [],
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "277:50:23",
+                            "tryCall": false,
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_IERC20_$40111",
+                                "typeString": "contract IERC20"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 40122,
+                            "nodeType": "Block",
+                            "src": "358:2:23",
+                            "statements": []
+                        },
+                        "functionSelector": "0a9254e4",
+                        "id": 40123,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "setUp",
+                        "nameLocation": "343:5:23",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 40120,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "348:2:23"
+                        },
+                        "returnParameters": {
+                            "id": 40121,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "358:0:23"
+                        },
+                        "scope": 40137,
+                        "src": "334:26:23",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 40135,
+                            "nodeType": "Block",
+                            "src": "392:52:23",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "arguments": [
+                                            {
+                                                "arguments": [
+                                                    {
+                                                        "hexValue": "6869",
+                                                        "id": 40130,
+                                                        "isConstant": false,
+                                                        "isLValue": false,
+                                                        "isPure": true,
+                                                        "kind": "string",
+                                                        "lValueRequested": false,
+                                                        "nodeType": "Literal",
+                                                        "src": "421:4:23",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_stringliteral_7624778dedc75f8b322b9fa1632a610d40b85e106c7d9bf0e743a9ce291b9c6f",
+                                                            "typeString": "literal_string \"hi\""
+                                                        },
+                                                        "value": "hi"
+                                                    }
+                                                ],
+                                                "expression": {
+                                                    "argumentTypes": [
+                                                        {
+                                                            "typeIdentifier": "t_stringliteral_7624778dedc75f8b322b9fa1632a610d40b85e106c7d9bf0e743a9ce291b9c6f",
+                                                            "typeString": "literal_string \"hi\""
+                                                        }
+                                                    ],
+                                                    "id": 40129,
+                                                    "name": "makeAddr",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 5362,
+                                                    "src": "412:8:23",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$_t_address_$",
+                                                        "typeString": "function (string memory) returns (address)"
+                                                    }
+                                                },
+                                                "id": 40131,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "kind": "functionCall",
+                                                "lValueRequested": false,
+                                                "nameLocations": [],
+                                                "names": [],
+                                                "nodeType": "FunctionCall",
+                                                "src": "412:14:23",
+                                                "tryCall": false,
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                }
+                                            },
+                                            {
+                                                "hexValue": "3130",
+                                                "id": 40132,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "number",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "428:8:23",
+                                                "subdenomination": "ether",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_rational_10000000000000000000_by_1",
+                                                    "typeString": "int_const 10000000000000000000"
+                                                },
+                                                "value": "10"
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                },
+                                                {
+                                                    "typeIdentifier": "t_rational_10000000000000000000_by_1",
+                                                    "typeString": "int_const 10000000000000000000"
+                                                }
+                                            ],
+                                            "expression": {
+                                                "id": 40126,
+                                                "name": "token",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 40119,
+                                                "src": "401:5:23",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_contract$_IERC20_$40111",
+                                                    "typeString": "contract IERC20"
+                                                }
+                                            },
+                                            "id": 40128,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberLocation": "407:4:23",
+                                            "memberName": "mint",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 40110,
+                                            "src": "401:10:23",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$__$",
+                                                "typeString": "function (address,uint256) external"
+                                            }
+                                        },
+                                        "id": 40133,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "401:36:23",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 40134,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "401:36:23"
+                                }
+                            ]
+                        },
+                        "functionSelector": "69295910",
+                        "id": 40136,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "test_ok",
+                        "nameLocation": "375:7:23",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 40124,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "382:2:23"
+                        },
+                        "returnParameters": {
+                            "id": 40125,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "392:0:23"
+                        },
+                        "scope": 40137,
+                        "src": "366:78:23",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 40138,
+                "src": "220:230:23",
+                "usedErrors": [],
+                "usedEvents": [
+                    100,
+                    104,
+                    108,
+                    112,
+                    116,
+                    120,
+                    124,
+                    128,
+                    134,
+                    140,
+                    148,
+                    156,
+                    162,
+                    168,
+                    174,
+                    180,
+                    185,
+                    190,
+                    195,
+                    202,
+                    209,
+                    216
+                ]
+            }
+        ],
+        "src": "39:412:23"
+    },
+    "functionHashes": {
+        "mint(address,uint256)": "40c10f19"
+    },
+    "gasEstimates": null
+}
